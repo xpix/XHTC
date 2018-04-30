@@ -1,8 +1,6 @@
 # XHTC
 Design toolchanger on Hypercube 3D Printer
 
-This is my winter project, called XHTC.
-
 Links and BOM
 ---------------------
 Fusion360 Design: 
@@ -18,7 +16,6 @@ PCB for Pogo-Pins:
 https://oshpark.com/shared_projects/ypHD6yYr
 
 ----
-
 This is a list of all used external Parts for XHTC Project:
 
 Neodym magnet balls 10mm
