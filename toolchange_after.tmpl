@@ -1,0 +1,18 @@
+{% set xpos=[21, 101, 191] %}
+M117 {{ tool|pprint }}
+M117 After toolchange
+
+{% if tool.old != tool.new %}
+G1 X{{xpos[tool.new]-10}} Y50 ;secure position 
+G1 F1500
+G1 X{{xpos[tool.new]-10}} Y18 ;secure change position 
+G1 Y-11                       ;move in holder
+G1 X{{xpos[tool.new]-2}}      ;get tool
+G1 Y10                        ;secure position half away
+G1 X{{xpos[tool.new]}} Y20    ;get tool
+{% else %}
+M117 No toolchange required
+{% endif %}
+
+G1 X100 Y100                  ;do something with new holder
+M84
