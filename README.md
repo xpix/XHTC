@@ -1,6 +1,14 @@
 # XHTC
 Design toolchanger on Hypercube 3D Printer
 
+# Description
+I can finally say that this design is perfect for publication. The XHTC is an automatic tool changer based on Renè Jurack's design. To see the procedure for this design I can only recommend the video. There is also a playlist where you can get more information. The design of the STL files is finished, but the whole cabling and control is not yet.
+
+The design supports compact tool heads, all electrical connections are only made with one tool change. I'll add more stuff to that. I am currently initiating the change with a script stored under "GCODE Scripts / (before, after) Tool change" in Octoprint from version 1.3.8. You can find the templates in the github: https://github.com/xpix/XHTC
+
+It is still a prototype, but if you want to try it, here is all the information you need.
+
+
 Links and BOM
 ---------------------
 Fusion360 Design: 
